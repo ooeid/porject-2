@@ -1,0 +1,24 @@
+<h2> Workout:<%= @workout.name %></h2>
+<h2> Mucsles targeted:<%= @workout.muscles %></h2>
+
+<img src=<%=@workout.img%> alt="chest" width="42" height="42"> <br>
+<h2> Weight:<%= @workout.weight%></h2>
+<h2> Set:<%= @workout.set %></h2>
+<h2> Rep:<%= @workout.rep %></h2>
+<h2> Comment:<%= @workout.note%></h2>
+
+
+<%= button_to "All Workout", workouts_path, method: :get %>
+
+<%= button_to "Edit you workout", edit_workout_path(@workout), method: :get %>
+
+<%= button_to 'remove a workout', workout_path(@workout), method: 'delete', data: { confirm: 'Are you sure?' } %>
+
+
+
+
+
+
+
+
+

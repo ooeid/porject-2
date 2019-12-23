@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  date: MyString
+  img: MyString
+  note: MyString
+  muscles: MyString
+  set: 1
+  rep: 1
+
+two:
+  name: MyString
+  date: MyString
+  img: MyString
+  note: MyString
+  muscles: MyString
+  set: 1
+  rep: 1

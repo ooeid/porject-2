@@ -1,0 +1,16 @@
+
+<h3>Change Your Workout</h3>
+
+<%= form_for @workout, url: {action: "update"} do |f| %>
+
+  <p> Date: <%= f.text_field :date, placeholder: "workout date" %></p>
+  <p> Name: <%= f.text_field :name, placeholder: "workout name" %></p>
+  <p> Targeted Mucsles: <%= f.text_field :muscles, placeholder: "workout mucsles" %></p>
+  <p> Weight: <%= f.text_field :weight, placeholder: "workout name" %></p>
+  <p> Set: <%= f.text_field :set, placeholder: "workout name" %></p>
+  <p> Rep: <%= f.text_field :rep, placeholder: "workout name" %></p>
+  <p> Img: <%= f.text_field :img, placeholder: "workout name" %></p>
+
+  <%= f.submit %>
+
+<% end %>

@@ -1,16 +1,54 @@
 
-<h3>New Workout</h3>
 
-<%= form_for @workout do |f| %>
-  <p> Date: <%= f.text_field :date, placeholder: "workout date" %></p>
-  <p> Name: <%= f.text_field :name, placeholder: "workout name" %></p>
-  <p> Targeted Mucsles: <%= f.text_field :muscles, placeholder: "workout mucsles" %></p>
-  <p> Weight: <%= f.text_field :weight, placeholder: "workout name" %></p>
-  <p> Set: <%= f.text_field :set, placeholder: "sets" %></p>
-  <p> Rep: <%= f.text_field :rep, placeholder: "reps" %></p>
-  <p> Img: <%= f.text_field :img, placeholder: "url" %></p>
-  <p> Note: <%= f.text_field :note, placeholder: "comment" %></p>
-  
-  <%= f.submit %>
+        <div class ="container">
+          <h3>New Workout</h3>
+        <%= form_for @workout do |f| %>
+              <form>
+            <div class="form-row">
+            <div class="form-group col-md-6">
+      <label for="inputEmail4">Name of Your Workout</label>
+      <%= f.text_field :name, placeholder: "workout name", class: "form-control", id: "inputEmail4" %>
+    </div>
 
-<% end %>
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Date</label>
+      <%= f.text_field :date, placeholder: "date", class: "form-control", id: "inputEmail4" %>
+    </div>
+
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Targeted Mucsles:</label>
+      <%= f.text_field :muscles, placeholder: "workout mucsles", class: "form-control", id: "inputEmail4" %>
+    </div>
+
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Weight:</label>
+      <%= f.text_field :weight, placeholder: "weight", class: "form-control", id: "inputEmail4" %>
+    </div>
+
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">sets</label>
+      <%= f.text_field :set, placeholder: "sets", class: "form-control", id: "inputEmail4" %>
+    </div> 
+
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Reps</label>
+      <%= f.text_field :rep, placeholder: "reps", class: "form-control", id: "inputEmail4" %>
+    </div> 
+
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Image</label>
+      <%= f.text_field :img, placeholder: "img", class: "form-control", id: "inputEmail4" %>
+    </div> 
+
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Note</label>
+      <%= f.text_field :note, placeholder: "  ", class: "form-control", id: "inputEmail4" %>
+    </div> 
+
+    <%= f.submit %>
+    </div>
+  </div>
+  </div>
+    </form>
+ 
+    <% end %>

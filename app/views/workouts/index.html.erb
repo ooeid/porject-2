@@ -1,9 +1,34 @@
-<ul>
 
-<% @workouts.each do |workout| %>
 
- <li><%= link_to workout.date, workout_path(workout)%> </li>
+<div class ="container">
+    <div class = "row">
+        <div class="col">
+          <button class ="add_btn"><%= link_to 'new', new_workout_path%>  </button>
 
-<% end %>
+        <div class="row">
+        <% @workouts.each do |workout| %>
+        <div class="col-4">
+          <%= link_to image_tag(workout.img), workout_path(workout)%>
+          <h5><%= link_to workout.date, workout_path(workout)%></h5>
+          <p>   
+           Workout: <%= link_to workout.name %>  <br>
+           Targeted mucsles: <%= link_to workout.muscles %> <br>
+           Wegiht: <%= link_to workout.weight%> <br>
+           Set: <%= link_to workout.set%> <br>
+           Rep: <%= link_to workout.rep %><br>
+           Note: <%= link_to workout.note%> <br>
+          </p>
+          <hr>
+          </div>
+        <% end %>
+        </div>
 
- </ul>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+

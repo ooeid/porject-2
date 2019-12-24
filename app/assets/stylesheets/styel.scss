@@ -1,0 +1,125 @@
+
+.add_btn{
+max-width: max-content;
+border: none;
+align-items: center;
+}
+
+ .features {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sign-up {
+
+  background: #f5f5f5;
+  padding: 15px;
+  margin: 30px auto 0;
+  box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+  border: 2px solid white;
+  max-width: 280px;
+  text-align: center;
+
+}
+
+footer {
+  width: 100%;
+  font-size: 1.2em;
+  background-color: #1D1F20;
+  padding: 10px;
+  color: white;
+  max-width: 100%;
+  text-align: center;
+  clear: both;
+  margin-top: 100px;
+ }
+ footer ul {
+  border-top: 3px solid #EA4335;
+  border-bottom: 3px solid #EA4335;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+ }
+ 
+ footer li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 1.5em;
+ }
+ 
+ footer li a{
+ text-decoration: none;
+  color: white;
+  transition: 1s ease;
+  font-size: 1em;
+  }
+ 
+ footer li a:hover {
+   color: #EA4335;
+   text-decoration: none;
+   }
+
+.point .features {
+  color: #333;
+  width: 48%;
+}
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/336/993/86/man-pose-workout-shades-wallpaper-preview.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.workout_holder {
+
+  max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+   justify-content: space-between;
+   position: fixed;
+}
+p{
+      display:inline-block; 
+}
+.img_workout{
+  vertical-align: middle;
+ }
+
+.holder {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  text-align: center;
+    
+ 
+
+}
+
+.body_sign_up {
+
+  background: #f5f5f5;
+  padding: 15px;
+  margin: 30px auto 0;
+  box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+  border: 2px solid white;
+  max-width: 280px;
+}
+
+.form_new{
+  
+
+}
+
+
+
+
+
+
+

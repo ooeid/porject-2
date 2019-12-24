@@ -9,9 +9,7 @@
 
 
 <%= button_to "All Workout", workouts_path, method: :get %>
-
 <%= button_to "Edit you workout", edit_workout_path(@workout), method: :get %>
-
 <%= button_to 'remove a workout', workout_path(@workout), method: 'delete', data: { confirm: 'Are you sure?' } %>
 
 

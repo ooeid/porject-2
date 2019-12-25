@@ -1,8 +1,32 @@
 
+.show_img {
+  position: relative;
+  left: 545px;
+
+}
+
+
+
+
+
+
 .add_btn{
-max-width: max-content;
-border: none;
-align-items: center;
+  color:black;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.add_btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
 }
 
  .features {
@@ -72,7 +96,7 @@ footer {
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/336/993/86/man-pose-workout-shades-wallpaper-preview.jpg");
+  background-image: url("");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

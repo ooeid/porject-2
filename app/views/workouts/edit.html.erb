@@ -3,14 +3,17 @@
 
 <%= form_for @workout, url: {action: "update"} do |f| %>
 
-  <p> Date: <%= f.text_field :date, placeholder: "workout date" %></p>
-  <p> Name: <%= f.text_field :name, placeholder: "workout name" %></p>
-  <p> Targeted Mucsles: <%= f.text_field :muscles, placeholder: "workout mucsles" %></p>
-  <p> Weight: <%= f.text_field :weight, placeholder: "workout name" %></p>
-  <p> Set: <%= f.text_field :set, placeholder: "workout name" %></p>
-  <p> Rep: <%= f.text_field :rep, placeholder: "workout name" %></p>
-  <p> Img: <%= f.text_field :img, placeholder: "workout name" %></p>
-
+  <ul class="list-group">
+  <li class="list-group-item"> Name: <%= f.text_field :name, placeholder: "workout name" %> </i>
+  <li class="list-group-item">   Date: <%= f.text_field :date, placeholder: "workout date" %>  </li>
+  <li class="list-group-item"> Targeted Mucsles: <%= f.text_field :muscles, placeholder: "workout mucsles" %></li>
+  <li class="list-group-item">Weight: <%= f.text_field :weight, placeholder: "workout name" %></li>
+  <li class="list-group-item"> Set: <%= f.text_field :set, placeholder: "workout name" %></li>
+  <li class="list-group-item"> Rep: <%= f.text_field :rep, placeholder: "workout name" %> </li>
+  <li class="list-group-item"> Image: <%= f.text_field :img, placeholder: "workout name" %> </li>
+  <li class="list-group-item">   Comment:  Note: <%= f.text_field :note, placeholder: "workout name" %></li>
+  </ul>
   <%= f.submit %>
 
 <% end %>
+

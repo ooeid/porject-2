@@ -39,13 +39,13 @@ At the beginning, the user will see simple homescreen with some information abou
 
  I have made my website as simple as I can, so you only got one to many relationship as showen below: 
 
- ![ERB](https://imgur.com/mNmldAL)
+ ![ERB](https://i.imgur.com/gn8e6Lf.jpg)
 
 ### Wire Frame 
 
- ![LogIn](https://imgur.com/e73XKTY) 
-    ![show](https://imgur.com/YKtbKmb)
-![edit](https://imgur.com/WjsSuXa)
+ ![LogIn](https://imgur.com/G0CyCol.jpg) 
+    ![show](https://imgur.com/KEIAuZ4.jpg)
+![edit](https://imgur.com/HeOmjwE.jpg)
 
 
 
@@ -57,6 +57,9 @@ At the beginning, the user will see simple homescreen with some information abou
 ### Futures       
 
 *  Budling a community 
+*  user can see each other progress 
+*  some social actions such as like, dislike ..etc 
+*  and a lot mote 
 
 
 

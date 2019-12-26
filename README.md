@@ -30,6 +30,25 @@ you can enter WorkoutGM [here](https://fathomless-crag-74987.herokuapp.com/)
 * Googel Chrome
 * Visual Studio 
 
+
+### User Story 
+
+At the beginning, the user will see simple homescreen with some information about the website where he can login, sign up. The user must sign up so, they can be able to login. After logging in, the user will see simple white screen where he can add new workout at the navbar in top of the page. now the user can add, edit or remove his workout, enjoy!  
+
+### ERB Daigram 
+
+ I have made my website as simple as I can, so you only got one to many relationship as showen below: 
+
+ ![ERB](https://imgur.com/mNmldAL)
+
+### Wire Frame 
+
+ ![LogIn](https://imgur.com/e73XKTY) 
+    ![show](https://imgur.com/YKtbKmb)
+![edit](https://imgur.com/WjsSuXa)
+
+
+
 ### Features
 
 * Simple and Easy to use 
@@ -38,6 +57,10 @@ you can enter WorkoutGM [here](https://fathomless-crag-74987.herokuapp.com/)
 ### Futures       
 
 *  Budling a community 
+
+
+
+
 
 ### Contact Me 
 
